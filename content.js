@@ -1,6 +1,6 @@
 // Function to determine if the document is in landscape or portrait mode
 function getOrientation() {
-  const page = document.querySelector('embed') || document.querySelector('object');
+  const page = document.querySelector('canvas');
   if (!page) return null;
 
   // Accessing the page's width and height
